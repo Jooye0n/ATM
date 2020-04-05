@@ -1,0 +1,18 @@
+#main-menu-div {
+    display: none;
+}
+
+#currentBalance {
+    color: crimson;
+}
+
+#balande-view {
+    display: none;
+    font-family:바탕;
+    font-weight: bold;
+}
+
+#error-view {
+    display: none;
+    font-family: Sans-Serif;
+}

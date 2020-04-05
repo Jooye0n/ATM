@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="lab4.css">
+        <meta lang="ko/kr">
+        <meta charset="utf-8">
+        <title>201621025 신주연</title>
+    </head>
+    <body>
+        <div id="new-account-div">
+            <form autocomplete="on">
+                name
+                <input id="name" type="text" name="name" autofocus>
+                password
+                <input id="pw" type="password" name="password" autocomplete="off">
+                <button id="makeaccount" type="button">MAKE NEW ACCOUNT</button>
+            </form>
+        </div>
+        <div id="main-menu-div">
+            <form autocomplete="on">
+                PASSWORD
+                <input type="password" id="pw2" name="password" autocomplete="on">
+                MONEY
+                <input type="number" id="money" name="name" autofocus>
+                <br/>
+                <button type="button" id="depositBtn">입금</button>
+                <button type="button" id="withdrawBtn">출금</button>
+                <button type="button" id="balanceBtn">잔고확인</button>
+                <br/>
+            </form>
+        </div>
+        <div id="balande-view">
+            <h1>잔고 : <span id="currentBalance">0</span>원</h1>
+        </div>
+        <div id="error-view">
+            <h1 id="pwError">PASSWORD IS INCORRECT</h1>
+            <h1 id="moneyError">MONEY RANGE IS INCORRECT</h1>
+        </div>
+        <script type="text/javascript" src="lab4.js" charset="utf-8"></script>
+    </body>
+</html>
